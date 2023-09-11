@@ -74,7 +74,7 @@ def process_image(image_path, output_path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Sample face from an image and force resolution to 512 X 512")
+    parser = argparse.ArgumentParser(description="Run a request to A1111")
     
     parser.add_argument('-o', '--output', required=True, type=str, help='Output filename')
     parser.add_argument('--seed', default=-1, type=int, help='Generation seed')
